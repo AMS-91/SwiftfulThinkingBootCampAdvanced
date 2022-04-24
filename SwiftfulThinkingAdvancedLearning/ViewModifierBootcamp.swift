@@ -13,7 +13,6 @@ struct DefaultButtonViewModifier: ViewModifier {
     
     func body(content: Content) -> some View {
                     content
-                        .font(.headline)
                         .foregroundColor(.white)
                         .frame(height: 55)
                         .frame(maxWidth: .infinity)
@@ -40,15 +39,17 @@ struct ViewModifierBootcamp: View {
         VStack {
             
             Text("Hello World!")
+                .font(.headline)
                 .withDefaultButtonFormatting(backgroundColor: .blue)
-//                .modifier(DefaultButtonViewModifier())
 
             Text("Hello everyone!")
-                .modifier(DefaultButtonViewModifier(backgroundColor: .green))
+                .font(.largeTitle)
+                .withDefaultButtonFormatting(backgroundColor: .green)
 
             
             Text("Hello!!")
-                .modifier(DefaultButtonViewModifier(backgroundColor: .yellow))
+                .font(.title)
+                .withDefaultButtonFormatting()
         }
     }
 }
