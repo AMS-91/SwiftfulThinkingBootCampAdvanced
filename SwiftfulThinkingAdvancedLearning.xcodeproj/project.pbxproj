@@ -13,6 +13,7 @@
 		6418BDBC2815617100A8F812 /* ViewModifierBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6418BDBB2815617100A8F812 /* ViewModifierBootcamp.swift */; };
 		6418BDBE281568EE00A8F812 /* ButtonStyleBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6418BDBD281568EE00A8F812 /* ButtonStyleBootcamp.swift */; };
 		6418BDC02815732100A8F812 /* AnyTransitionBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6418BDBF2815732100A8F812 /* AnyTransitionBootcamp.swift */; };
+		6418BDC22816CB8D00A8F812 /* MatchedGeometryEffectBootcamp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6418BDC12816CB8D00A8F812 /* MatchedGeometryEffectBootcamp.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		6418BDBB2815617100A8F812 /* ViewModifierBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifierBootcamp.swift; sourceTree = "<group>"; };
 		6418BDBD281568EE00A8F812 /* ButtonStyleBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonStyleBootcamp.swift; sourceTree = "<group>"; };
 		6418BDBF2815732100A8F812 /* AnyTransitionBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnyTransitionBootcamp.swift; sourceTree = "<group>"; };
+		6418BDC12816CB8D00A8F812 /* MatchedGeometryEffectBootcamp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MatchedGeometryEffectBootcamp.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				6418BDBB2815617100A8F812 /* ViewModifierBootcamp.swift */,
 				6418BDBD281568EE00A8F812 /* ButtonStyleBootcamp.swift */,
 				6418BDBF2815732100A8F812 /* AnyTransitionBootcamp.swift */,
+				6418BDC12816CB8D00A8F812 /* MatchedGeometryEffectBootcamp.swift */,
 			);
 			path = SwiftfulThinkingAdvancedLearning;
 			sourceTree = "<group>";
@@ -147,6 +150,7 @@
 				6418BDBC2815617100A8F812 /* ViewModifierBootcamp.swift in Sources */,
 				6418BDC02815732100A8F812 /* AnyTransitionBootcamp.swift in Sources */,
 				6418BDAE2815613C00A8F812 /* SwiftfulThinkingAdvancedLearningApp.swift in Sources */,
+				6418BDC22816CB8D00A8F812 /* MatchedGeometryEffectBootcamp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
