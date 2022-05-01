@@ -42,7 +42,7 @@ struct MatchedGeometryEffectBootcamp: View {
 
 struct MatchedGeometryEffectBootcamp_Previews: PreviewProvider {
     static var previews: some View {
-        MatchedGeometryEffectEample2()
+        MatchedGeometryEffectBootcamp()
     }
 }
 
