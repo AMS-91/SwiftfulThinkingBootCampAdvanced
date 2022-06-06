@@ -9,14 +9,14 @@ import SwiftUI
 
 struct CustomCurvesBootcamp: View {
     var body: some View {
-        WaterShape()
+        QuadSample()
             .fill(
             LinearGradient(
                 gradient: Gradient(colors: [Color.blue.opacity(0.2),Color.blue]),
                 startPoint: .leading,
                 endPoint: .trailing)
             )
-            .ignoresSafeArea()
+//            .ignoresSafeArea()
 //            .stroke(lineWidth: 5)
 //            .frame(width: 200, height: 200)
 //            .rotationEffect(Angle(degrees: 90))
@@ -65,7 +65,7 @@ struct ShapeWithArc: Shape {
                 clockwise: false)
 //            // bottom
 //            path.addLine(to: CGPoint(x: rect.midX, y: rect.maxY))
-//
+
             // mid left
             path.addLine(to: CGPoint(x: rect.minX, y: rect.midY))
 
